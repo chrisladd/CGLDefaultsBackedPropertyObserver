@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'CGLDefaultsBackedPropertyObserver', :exclusive => true do
+  pod "CGLDefaultsBackedPropertyObserver", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "CGLDefaultsBackedPropertyObserver", :path => "../"
+
+  
+end
