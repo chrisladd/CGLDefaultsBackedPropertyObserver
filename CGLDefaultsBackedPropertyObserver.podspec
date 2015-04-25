@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "CGLDefaultsBackedPropertyObserver"
   s.version          = "0.1.0"
-  s.summary          = "CGLDefaultsBackedPropertyObserver synchronizes the properties of an object with your app's NSUserDefaults automatically with Key Value Observing."
+  s.summary          = "Automatically synchronizes the properties of an object with your app's NSUserDefaults with KVO."
   s.description      = <<-DESC
                        Remember the days when you had to override setters and getters? Store defaults keys as constants? Those days are over.
                       
