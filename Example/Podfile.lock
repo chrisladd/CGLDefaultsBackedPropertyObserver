@@ -1,0 +1,14 @@
+PODS:
+  - CGLDefaultsBackedPropertyObserver (0.1.0)
+
+DEPENDENCIES:
+  - CGLDefaultsBackedPropertyObserver (from `../`)
+
+EXTERNAL SOURCES:
+  CGLDefaultsBackedPropertyObserver:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CGLDefaultsBackedPropertyObserver: 7581d5ec0d663788677c56c925bd460e3ec5c349
+
+COCOAPODS: 0.35.0

@@ -1,38 +1,22 @@
-#
-# Be sure to run `pod lib lint CGLDefaultsBackedPropertyObserver.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "CGLDefaultsBackedPropertyObserver"
   s.version          = "0.1.0"
-  s.summary          = "A short description of CGLDefaultsBackedPropertyObserver."
+  s.summary          = "CGLDefaultsBackedPropertyObserver synchronizes the properties of an object with your app's NSUserDefaults automatically with Key Value Observing."
   s.description      = <<-DESC
-                       An optional longer description of CGLDefaultsBackedPropertyObserver
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Remember the days when you had to override setters and getters? Store defaults keys as constants? Those days are over.
+                      
+                      As you might expect, these properties need to be property list objects: that means NSString, NSDictionary, NSArray, NSData, NSDate, or NSNumber. @note that any primitive types encapsulated by NSNumber are automatically supported: integers, floats, and booleans.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/CGLDefaultsBackedPropertyObserver"
+  s.homepage         = "https://github.com/chrisladd/CGLDefaultsBackedPropertyObserver"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Chris Ladd" => "c.g.ladd@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/CGLDefaultsBackedPropertyObserver.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/chrisladd/CGLDefaultsBackedPropertyObserver.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/chrisladd'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'CGLDefaultsBackedPropertyObserver' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
 end

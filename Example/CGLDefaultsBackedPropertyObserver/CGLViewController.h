@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface CGLViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UISwitch *bizSwitch;
+@property (weak, nonatomic) IBOutlet UISwitch *bangSwitch;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UISlider *slider;
 
 @end
