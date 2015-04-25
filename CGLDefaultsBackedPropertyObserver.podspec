@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                       As you might expect, these properties need to be property list objects: that means NSString, NSDictionary, NSArray, NSData, NSDate, or NSNumber. @note that any primitive types encapsulated by NSNumber are automatically supported: integers, floats, and booleans.
                        DESC
   s.homepage         = "https://github.com/chrisladd/CGLDefaultsBackedPropertyObserver"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots     = "https://raw.githubusercontent.com/chrisladd/CGLDefaultsBackedPropertyObserver/master/CGLDefaultsBackedPropertyObserver.png"
   s.license          = 'MIT'
   s.author           = { "Chris Ladd" => "c.g.ladd@gmail.com" }
   s.source           = { :git => "https://github.com/chrisladd/CGLDefaultsBackedPropertyObserver.git", :tag => s.version.to_s }
