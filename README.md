@@ -53,6 +53,8 @@ An example project is included, and should get you started -- flip the switches,
 
 ## Requirements
 
+I haven't tested this on anything below 7.0, but there's no reason it _shouldn't_ work there.
+
 ## Installation
 
 CGLDefaultsBackedPropertyObserver is available through [CocoaPods](http://cocoapods.org). To install
